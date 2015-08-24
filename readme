@@ -1,0 +1,21 @@
+This is my first makefile for g++ project.
+
+The content is as follows:
+
+.
+├── build
+│   └── makefile
+└── src
+    ├── hello.cc
+    ├── hello_world.cc
+    ├── include
+    │   ├── hello.h
+    │   └── hello_world.h
+    └── main.cc
+
+
+1. run
+    cd build && make
+
+2. clean .o and execute file.
+    make clean
